@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+
+  /* Brand Colors */
+  --raspberry: #D13C6A;
+  --teal: #0F766E;
+  --lavender: #6750A4;
+
+  /* Feedback Colors */
+  --success: #2E7D32;
+  --warning: #B45309;
+  --error: #B3261E;
+  --info: #2563EB;
+
+  /* Neutral Colors */
+  --ink: #111827;
+  --slate-700: #334155;
+  --slate-500: #64748B;
+  --slate-300: #CBD5E1;
+  --slate-100: #F1F5F9;
+  --blush: #FFF5F7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Brand Colors */
+  --color-raspberry: var(--raspberry);
+  --color-teal: var(--teal);
+  --color-lavender: var(--lavender);
+
+  /* Feedback Colors */
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --color-info: var(--info);
+
+  /* Neutral Colors */
+  --color-ink: var(--ink);
+  --color-slate-700: var(--slate-700);
+  --color-slate-500: var(--slate-500);
+  --color-slate-300: var(--slate-300);
+  --color-slate-100: var(--slate-100);
+  --color-blush: var(--blush);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0F172A;
+    --foreground: #F1F5F9;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}

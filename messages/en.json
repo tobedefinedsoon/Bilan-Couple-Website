@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "title": "Strengthen your relationship",
+    "titleHighlight": "one quarter at a time",
+    "subtitle": "Couple Check-In helps couples build stronger relationships through structured quarterly review sessions.",
+    "cta": "Download on App Store",
+    "ctaGoogle": "Get it on Google Play"
+  },
+  "process": {
+    "title": "How it works",
+    "step1": {
+      "title": "1. Prepare individually",
+      "description": "Reflect privately on thoughtful questions across 6 key relationship areas. Your answers remain completely private until your in-person session."
+    },
+    "step2": {
+      "title": "2. Connect in person",
+      "description": "Meet each quarter for a structured session where you discuss each question together. The app guides you through a two-pass system."
+    },
+    "step3": {
+      "title": "3. Act together",
+      "description": "Create concrete action items during your session. Track your commitments, celebrate accomplishments, and build momentum toward your relationship goals."
+    },
+    "step4": {
+      "title": "4. Track your progress",
+      "description": "Review your session history, revisit your past answers, and see how your relationship evolves over time."
+    }
+  },
+  "features": {
+    "title": "Key features",
+    "feature1": {
+      "title": "42 expert questions",
+      "description": "Expertly-crafted questions in French covering all relationship dimensions"
+    },
+    "feature2": {
+      "title": "Privacy first",
+      "description": "Your answers are yours until you choose to share them"
+    },
+    "feature3": {
+      "title": "Real-time sync",
+      "description": "Seamless couple coordination across all devices"
+    },
+    "feature4": {
+      "title": "Smart notifications",
+      "description": "Gentle reminders to help you prepare and stay on track"
+    },
+    "feature5": {
+      "title": "Action management",
+      "description": "Turn insights into results with structured tracking"
+    },
+    "feature6": {
+      "title": "Session history",
+      "description": "Celebrate your journey together over time"
+    }
+  },
+  "why": {
+    "title": "Why quarterly reviews?",
+    "description": "Research shows that couples who regularly reflect on their relationship experience higher satisfaction, better communication, and stronger emotional bonds. Couple Check-In makes this practice simple, structured, and sustainable.",
+    "perfectFor": "Perfect for:",
+    "audience1": "Couples seeking intentional relationship growth",
+    "audience2": "Partners who value structured communication",
+    "audience3": "Anyone wanting to move from \"we should talk more\" to actually talking meaningfully"
+  },
+  "testimonials": {
+    "title": "What couples say",
+    "testimonial1": {
+      "name": "Sophie & Marc",
+      "years": "together 5 years",
+      "text": "Quarterly reviews have transformed our communication. We finally take the time to truly listen. The app makes it simple and structured."
+    },
+    "testimonial2": {
+      "name": "Julie & Alexandre",
+      "years": "together 2 years",
+      "text": "We thought everything was fine, but these questions helped us identify small things before they became problems. It's become our favorite ritual."
+    },
+    "testimonial3": {
+      "name": "Amélie & David",
+      "years": "together 8 years",
+      "text": "After 8 years, we thought we knew everything about each other. Couple Check-In showed us there's always more to discover. The concrete actions make a real difference."
+    },
+    "testimonial4": {
+      "name": "Caroline & Thomas",
+      "years": "together 3 years",
+      "text": "This app gave us a framework for having conversations we were avoiding. Now we look forward to our sessions with excitement."
+    }
+  },
+  "cta": {
+    "title": "Start strengthening your relationship today",
+    "subtitle": "Download Couple Check-In and schedule your first quarterly review",
+    "download": "Download on App Store",
+    "downloadGoogle": "Get it on Google Play"
+  },
+  "footer": {
+    "copyright": "© 2025 Couple Check-In. All rights reserved.",
+    "privacy": "Privacy policy",
+    "contact": "Contact"
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "comingSoon": "This page will be available soon.",
+    "description": "We are currently working on our detailed privacy policy. Check back soon!",
+    "backHome": "Back to home"
+  }
+}
