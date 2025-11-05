@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "privacy": "Confidentialité"
+  },
+  "hero": {
+    "title": "Renforcez votre relation",
+    "titleHighlight": "un trimestre à la fois",
+    "subtitle": "Bilan Couple aide les couples à construire des relations plus solides grâce à des sessions de bilan trimestrielles structurées.",
+    "cta": "Télécharger sur l'App Store",
+    "ctaGoogle": "Disponible sur Google Play"
+  },
+  "process": {
+    "title": "Comment ça marche",
+    "step1": {
+      "title": "1. Préparez-vous individuellement",
+      "description": "Réfléchissez en privé à des questions réfléchies sur 6 domaines clés de la relation. Vos réponses restent complètement privées jusqu'à votre session en personne."
+    },
+    "step2": {
+      "title": "2. Connectez-vous en personne",
+      "description": "Rencontrez-vous chaque trimestre pour une session structurée où vous discutez ensemble de chaque question. L'application vous guide à travers un système à deux passages."
+    },
+    "step3": {
+      "title": "3. Agissez ensemble",
+      "description": "Créez des actions concrètes pendant votre session. Suivez vos engagements, célébrez les accomplissements et construisez un élan vers vos objectifs relationnels."
+    },
+    "step4": {
+      "title": "4. Suivez votre progression",
+      "description": "Consultez l'historique de vos sessions, revisitez vos réponses passées et voyez comment votre relation évolue au fil du temps."
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités clés",
+    "feature1": {
+      "title": "42 questions expertes",
+      "description": "Questions soigneusement élaborées en français couvrant toutes les dimensions relationnelles"
+    },
+    "feature2": {
+      "title": "Confidentialité d'abord",
+      "description": "Vos réponses vous appartiennent jusqu'à ce que vous les partagiez"
+    },
+    "feature3": {
+      "title": "Synchronisation en temps réel",
+      "description": "Coordination harmonieuse du couple sur tous les appareils"
+    },
+    "feature4": {
+      "title": "Notifications intelligentes",
+      "description": "Rappels doux pour vous aider à préparer et rester sur la bonne voie"
+    },
+    "feature5": {
+      "title": "Gestion des actions",
+      "description": "Transformez les réflexions en résultats avec un suivi structuré"
+    },
+    "feature6": {
+      "title": "Historique des sessions",
+      "description": "Célébrez votre parcours ensemble au fil du temps"
+    }
+  },
+  "why": {
+    "title": "Pourquoi des bilans trimestriels ?",
+    "description": "Les recherches montrent que les couples qui réfléchissent régulièrement sur leur relation connaissent une satisfaction plus élevée, une meilleure communication et des liens émotionnels plus forts. Bilan Couple rend cette pratique simple, structurée et durable.",
+    "perfectFor": "Parfait pour :",
+    "audience1": "Les couples cherchant une croissance relationnelle intentionnelle",
+    "audience2": "Les partenaires qui valorisent la communication structurée",
+    "audience3": "Tous ceux qui veulent passer de \"on devrait plus parler\" à parler réellement de manière significative"
+  },
+  "testimonials": {
+    "title": "Ce que disent les couples",
+    "testimonial1": {
+      "name": "Sophie & Marc",
+      "years": "5 ans ensemble",
+      "text": "Les bilans trimestriels ont transformé notre communication. On prend enfin le temps de vraiment s'écouter. L'app rend ça simple et structuré."
+    },
+    "testimonial2": {
+      "name": "Julie & Alexandre",
+      "years": "2 ans ensemble",
+      "text": "On pensait que tout allait bien, mais ces questions nous ont aidés à identifier des petites choses avant qu'elles deviennent des problèmes. C'est devenu notre rituel préféré."
+    },
+    "testimonial3": {
+      "name": "Amélie & David",
+      "years": "8 ans ensemble",
+      "text": "Après 8 ans, on pensait tout savoir l'un de l'autre. Bilan Couple nous a montré qu'il y a toujours plus à découvrir. Les actions concrètes font vraiment la différence."
+    },
+    "testimonial4": {
+      "name": "Caroline & Thomas",
+      "years": "3 ans ensemble",
+      "text": "Cette app nous a donné un cadre pour avoir des conversations qu'on évitait. Maintenant, on anticipe nos sessions avec enthousiasme."
+    }
+  },
+  "cta": {
+    "title": "Commencez à renforcer votre relation aujourd'hui",
+    "subtitle": "Téléchargez Bilan Couple et planifiez votre premier bilan trimestriel",
+    "download": "Télécharger sur l'App Store",
+    "downloadGoogle": "Disponible sur Google Play"
+  },
+  "footer": {
+    "copyright": "© 2025 Bilan Couple. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "contact": "Contact"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "comingSoon": "Cette page sera bientôt disponible.",
+    "description": "Nous travaillons actuellement sur notre politique de confidentialité détaillée. Revenez bientôt !",
+    "backHome": "Retour à l'accueil"
+  }
+}
