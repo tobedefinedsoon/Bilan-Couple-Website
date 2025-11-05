@@ -32,7 +32,7 @@ export default function Header() {
             className="rounded-lg"
           />
           <span className="text-xl font-bold text-raspberry">
-            Bilan Couple
+            {t('appName')}
           </span>
         </Link>
 
