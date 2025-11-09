@@ -1,10 +1,12 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import ObfuscatedEmail from '@/components/ObfuscatedEmail';
+import ObfuscatedText from '@/components/ObfuscatedText';
 
 export default function PrivacyContent() {
   const t = useTranslations('privacy');
+  const locale = useLocale();
 
   return (
     <div className="flex-grow bg-white py-20">
@@ -29,16 +31,31 @@ export default function PrivacyContent() {
           </h2>
           <div className="bg-blush rounded-xl p-6">
             <p className="text-slate-700 mb-2">
-              <strong>{t('controller.name')}</strong>
+              <strong>
+                <ObfuscatedText encoded="U3ZlbiBCb3JkZW4=" />
+              </strong>
             </p>
-            <p className="text-slate-700 mb-2">{t('controller.address')}</p>
+            <p className="text-slate-700 mb-2">
+              <ObfuscatedText
+                encoded={
+                  locale === 'fr'
+                    ? 'Um91dGUgZCdZdmVyZG9uIDM0YSwgMTAyOCBQcsOpdmVyZW5nZXMsIFN1aXNzZQ=='
+                    : 'Um91dGUgZCdZdmVyZG9uIDM0YSwgMTAyOCBQcsOpdmVyZW5nZXMsIFN3aXR6ZXJsYW5k'
+                }
+              />
+            </p>
             <p className="text-slate-700 mb-2">
               <ObfuscatedEmail
                 encoded="c3ZlbmR4c0BnbWFpbC5jb20="
                 className="hover:underline"
               />
             </p>
-            <p className="text-slate-700">{t('controller.dpo')}</p>
+            <p className="text-slate-700">
+              {locale === 'fr'
+                ? 'Délégué à la protection des données : '
+                : 'Data Protection Officer: '}
+              <ObfuscatedText encoded="U3ZlbiBCb3JkZW4=" />
+            </p>
           </div>
         </section>
 
@@ -370,13 +387,21 @@ export default function PrivacyContent() {
           <p className="text-slate-700 mb-6">{t('contact.intro')}</p>
           <div className="bg-raspberry/10 border-l-4 border-raspberry rounded-xl p-6">
             <p className="text-slate-700 mb-2">
-              {t.raw('contact.email').split('svendxs@gmail.com')[0]}
+              {locale === 'fr' ? 'E-mail : ' : 'Email: '}
               <ObfuscatedEmail
                 encoded="c3ZlbmR4c0BnbWFpbC5jb20="
                 className="hover:underline"
               />
             </p>
-            <p className="text-slate-700 mb-4">{t('contact.address')}</p>
+            <p className="text-slate-700 mb-4">
+              <ObfuscatedText
+                encoded={
+                  locale === 'fr'
+                    ? 'QWRyZXNzZSA6IFN2ZW4gQm9yZGVuLCBSb3V0ZSBkJ1l2ZXJkb24gMzRhLCAxMDI4IFByw6l2ZXJlbmdlcywgU3Vpc3Nl'
+                    : 'QWRkcmVzczogU3ZlbiBCb3JkZW4sIFJvdXRlIGQnWXZlcmRvbiAzNGEsIDEwMjggUHLDqXZlcmVuZ2VzLCBTd2l0emVybGFuZA=='
+                }
+              />
+            </p>
             <p className="text-slate-700 font-semibold">{t('contact.response')}</p>
           </div>
         </section>
