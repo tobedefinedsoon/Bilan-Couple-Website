@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import ObfuscatedEmail from '@/components/ObfuscatedEmail';
 
 export default function PrivacyContent() {
   const t = useTranslations('privacy');
@@ -31,7 +32,12 @@ export default function PrivacyContent() {
               <strong>{t('controller.name')}</strong>
             </p>
             <p className="text-slate-700 mb-2">{t('controller.address')}</p>
-            <p className="text-slate-700 mb-2">{t('controller.email')}</p>
+            <p className="text-slate-700 mb-2">
+              <ObfuscatedEmail
+                encoded="c3ZlbmR4c0BnbWFpbC5jb20="
+                className="hover:underline"
+              />
+            </p>
             <p className="text-slate-700">{t('controller.dpo')}</p>
           </div>
         </section>
@@ -289,7 +295,13 @@ export default function PrivacyContent() {
               {t('yourRights.howTo.title')}
             </h3>
             <p className="text-slate-700 mb-2">{t('yourRights.howTo.inApp')}</p>
-            <p className="text-slate-700 mb-2">{t('yourRights.howTo.email')}</p>
+            <p className="text-slate-700 mb-2">
+              {t.raw('yourRights.howTo.email').split('svendxs@gmail.com')[0]}
+              <ObfuscatedEmail
+                encoded="c3ZlbmR4c0BnbWFpbC5jb20="
+                className="hover:underline"
+              />
+            </p>
             <p className="text-slate-700 font-semibold">{t('yourRights.howTo.response')}</p>
           </div>
         </section>
@@ -312,7 +324,14 @@ export default function PrivacyContent() {
           <h2 className="text-2xl font-bold text-ink mb-4">
             {t('children.title')}
           </h2>
-          <p className="text-slate-700">{t('children.text')}</p>
+          <p className="text-slate-700">
+            {t.raw('children.text').split('svendxs@gmail.com')[0]}
+            <ObfuscatedEmail
+              encoded="c3ZlbmR4c0BnbWFpbC5jb20="
+              className="hover:underline"
+            />
+            {t.raw('children.text').split('svendxs@gmail.com')[1]}
+          </p>
         </section>
 
         {/* 11. International Transfers */}
@@ -350,7 +369,13 @@ export default function PrivacyContent() {
           </h2>
           <p className="text-slate-700 mb-6">{t('contact.intro')}</p>
           <div className="bg-raspberry/10 border-l-4 border-raspberry rounded-xl p-6">
-            <p className="text-slate-700 mb-2">{t('contact.email')}</p>
+            <p className="text-slate-700 mb-2">
+              {t.raw('contact.email').split('svendxs@gmail.com')[0]}
+              <ObfuscatedEmail
+                encoded="c3ZlbmR4c0BnbWFpbC5jb20="
+                className="hover:underline"
+              />
+            </p>
             <p className="text-slate-700 mb-4">{t('contact.address')}</p>
             <p className="text-slate-700 font-semibold">{t('contact.response')}</p>
           </div>
