@@ -19,6 +19,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bilan Couple - Renforcez Votre Relation",
   description: "Bilan Couple aide les couples à construire des relations plus solides grâce à des sessions de bilan trimestrielles structurées.",
+  icons: {
+    icon: [
+      { url: '/icon.png', sizes: '1024x1024', type: 'image/png' },
+      { url: '/favicon.ico', sizes: '16x16 32x32 48x48 64x64' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '1024x1024', type: 'image/png' },
+    ],
+  },
 };
 
 export function generateStaticParams() {
