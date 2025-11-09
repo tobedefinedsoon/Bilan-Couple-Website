@@ -9,7 +9,7 @@
     "titleHighlight": "one quarter at a time",
     "subtitle": "Couple Check-In helps couples build stronger relationships through structured quarterly review sessions.",
     "cta": "Download on App Store",
-    "ctaGoogle": "Get it on Google Play"
+    "ctaGoogle": "Coming soon to Google Play"
   },
   "process": {
     "title": "How it works",
@@ -92,7 +92,7 @@
     "title": "Start strengthening your relationship today",
     "subtitle": "Download Couple Check-In and schedule your first quarterly review",
     "download": "Download on App Store",
-    "downloadGoogle": "Get it on Google Play"
+    "downloadGoogle": "Coming soon to Google Play"
   },
   "footer": {
     "copyright": "© 2025 Couple Check-In. All rights reserved.",
@@ -100,9 +100,224 @@
     "contact": "Contact"
   },
   "privacy": {
-    "title": "Privacy policy",
-    "comingSoon": "This page will be available soon.",
-    "description": "We are currently working on our detailed privacy policy. Check back soon!",
-    "backHome": "Back to home"
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: November 9, 2025",
+    "intro": {
+      "text": "Couple Check-In (\"the Application\") is committed to protecting your privacy and personal data. This privacy policy explains how we collect, use, share, and protect your information in compliance with the General Data Protection Regulation (GDPR) and the Swiss Federal Act on Data Protection (FADP)."
+    },
+    "controller": {
+      "title": "1. Data Controller",
+      "name": "Sven Borden",
+      "address": "Route d'Yverdon 34a, 1028 Préverenges, Switzerland",
+      "email": "svendxs@gmail.com",
+      "dpo": "Data Protection Officer: Sven Borden"
+    },
+    "dataCollected": {
+      "title": "2. Data We Collect",
+      "intro": "We collect the following data when you use the Application:",
+      "account": {
+        "title": "Account Data",
+        "items": [
+          "Email address (via Google Sign-In)",
+          "Name (via Google Sign-In)",
+          "Unique user identifier (Firebase Authentication)"
+        ]
+      },
+      "profile": {
+        "title": "Profile Data",
+        "items": [
+          "Couple status (paired or unpaired)",
+          "Couple identifier",
+          "Creation and update timestamps"
+        ]
+      },
+      "content": {
+        "title": "User-Generated Content",
+        "items": [
+          "Answers to reflection questions (strictly private, never shared with your partner)",
+          "Action items created during sessions (shared with your partner)",
+          "Custom questions and categories (shared with your couple)"
+        ]
+      },
+      "usage": {
+        "title": "Usage Data",
+        "items": [
+          "Scheduled and completed sessions",
+          "Session progress",
+          "Answer counts per session (not content)",
+          "Creation/modification timestamps",
+          "Push notification tokens (FCM)",
+          "Analytics data (metadata only, never personal content)"
+        ]
+      },
+      "technical": {
+        "title": "Technical Data",
+        "items": [
+          "Device type and iOS version",
+          "Crash reports and error logs (Firebase Crashlytics)",
+          "App performance data"
+        ]
+      }
+    },
+    "howWeUse": {
+      "title": "3. How We Use Your Data",
+      "intro": "We use your personal data to:",
+      "items": [
+        "Provide and maintain the Application's features",
+        "Authenticate you and manage your account",
+        "Sync your data across your devices",
+        "Enable pairing with your partner",
+        "Store your private answers (accessible only by you)",
+        "Share action items with your partner (only)",
+        "Send push notifications (session reminders, action notifications)",
+        "Improve the Application via anonymized analytics",
+        "Detect and fix technical errors",
+        "Comply with legal obligations"
+      ]
+    },
+    "legalBasis": {
+      "title": "4. Legal Basis for Processing (GDPR)",
+      "intro": "We process your personal data based on the following:",
+      "consent": {
+        "title": "Consent (Art. 6(1)(a) GDPR)",
+        "text": "You consent to processing by creating an account and using the Application."
+      },
+      "contract": {
+        "title": "Contract Performance (Art. 6(1)(b) GDPR)",
+        "text": "Processing is necessary to provide the Application's services."
+      },
+      "legitimate": {
+        "title": "Legitimate Interests (Art. 6(1)(f) GDPR)",
+        "text": "Improving the Application, error detection, and security."
+      }
+    },
+    "privacyFirst": {
+      "title": "5. Privacy-First Design",
+      "intro": "Couple Check-In is designed with privacy as a priority:",
+      "items": [
+        "Your answers to questions are strictly private - your partner can NEVER see them",
+        "Answer access is protected by Firebase security rules (owner-only)",
+        "Analytics NEVER collect answer content or personal data",
+        "Notification tokens are removed on sign-out",
+        "All data is encrypted in transit (HTTPS/TLS)",
+        "Data at rest is stored in secure Firebase data centers (europe-west region)"
+      ]
+    },
+    "sharing": {
+      "title": "6. Data Sharing",
+      "intro": "We never sell your data. We share limited data with:",
+      "firebase": {
+        "title": "Google Firebase (Data Processor)",
+        "services": "Services: Authentication, Database (Firestore), Analytics, Crash Reporting, Cloud Messaging",
+        "location": "Location: European data centers",
+        "privacy": "Privacy Policy: https://firebase.google.com/support/privacy"
+      },
+      "apple": {
+        "title": "Apple Inc.",
+        "services": "Services: App Store distribution, Push notifications (APNs)",
+        "privacy": "Privacy Policy: https://www.apple.com/legal/privacy/"
+      },
+      "partner": {
+        "title": "Your Partner (within the Application only)",
+        "items": [
+          "Session metadata (dates, statuses)",
+          "Action items created (titles and descriptions)",
+          "Custom questions and categories",
+          "NOT your answers - they remain strictly private"
+        ]
+      }
+    },
+    "retention": {
+      "title": "7. Data Retention",
+      "active": {
+        "title": "Active Accounts",
+        "text": "We retain your data as long as your account is active."
+      },
+      "deletion": {
+        "title": "After Account Deletion",
+        "text": "When you request account deletion:",
+        "items": [
+          "All your personal data is deleted within 30 days",
+          "A 30-day grace period allows for potential recovery",
+          "After 30 days, deletion is permanent and irreversible",
+          "Anonymized analytics data may be retained per Firebase's policy (14 months)"
+        ]
+      }
+    },
+    "yourRights": {
+      "title": "8. Your Rights (GDPR)",
+      "intro": "You have the following rights regarding your personal data:",
+      "access": {
+        "title": "Right of Access (Art. 15)",
+        "text": "Request a copy of your personal data."
+      },
+      "rectification": {
+        "title": "Right to Rectification (Art. 16)",
+        "text": "Correct inaccurate or incomplete data."
+      },
+      "erasure": {
+        "title": "Right to Erasure (Art. 17)",
+        "text": "Request deletion of your data (\"right to be forgotten\")."
+      },
+      "portability": {
+        "title": "Right to Data Portability (Art. 20)",
+        "text": "Receive your data in a structured, machine-readable format."
+      },
+      "restriction": {
+        "title": "Right to Restriction (Art. 18)",
+        "text": "Request limitation of processing of your data."
+      },
+      "objection": {
+        "title": "Right to Object (Art. 21)",
+        "text": "Object to processing of your data."
+      },
+      "withdraw": {
+        "title": "Withdraw Consent",
+        "text": "Withdraw your consent at any time (without affecting prior lawful processing)."
+      },
+      "howTo": {
+        "title": "How to Exercise Your Rights",
+        "inApp": "In-App: Go to Settings → Export My Data or Delete My Account",
+        "email": "By Email: Contact us at svendxs@gmail.com",
+        "response": "We will respond to your request within 30 days."
+      }
+    },
+    "security": {
+      "title": "9. Data Security",
+      "intro": "We implement appropriate security measures:",
+      "items": [
+        "Encryption in transit (TLS/HTTPS)",
+        "Firebase Authentication for secure account management",
+        "Firestore security rules (owner-only access for answers)",
+        "Regular security audits",
+        "Data storage in certified data centers (Firebase/Google Cloud)",
+        "Data minimization - we only collect what's necessary"
+      ]
+    },
+    "children": {
+      "title": "10. Children's Privacy",
+      "text": "The Application is intended for users aged 16 and older. We do not knowingly collect personal data from children under 16. If you believe a child has provided us with data, contact us at svendxs@gmail.com and we will delete it."
+    },
+    "international": {
+      "title": "11. International Data Transfers",
+      "text": "Your data is stored primarily in European Firebase data centers. If data is transferred outside the EU/EEA, we ensure appropriate safeguards are in place (EU Standard Contractual Clauses, adequacy decisions)."
+    },
+    "changes": {
+      "title": "12. Changes to This Policy",
+      "text": "We may update this privacy policy periodically. We will notify you of any significant changes via the Application or email. Continued use of the Application after changes constitutes acceptance of the new policy."
+    },
+    "complaints": {
+      "title": "13. Filing a Complaint",
+      "text": "If you believe your data protection rights have been violated, you have the right to file a complaint with your local data protection authority:",
+      "swiss": "Switzerland: Federal Data Protection and Information Commissioner (FDPIC) - https://www.edoeb.admin.ch/",
+      "eu": "EU/EEA: Your national data protection authority - https://edpb.europa.eu/about-edpb/board/members_en"
+    },
+    "contact": {
+      "title": "14. Contact Us",
+      "intro": "For any questions about this privacy policy or to exercise your rights:",
+      "email": "Email: svendxs@gmail.com",
+      "address": "Address: Sven Borden, Route d'Yverdon 34a, 1028 Préverenges, Switzerland",
+      "response": "We commit to responding within 30 days."
+    }
   }
 }

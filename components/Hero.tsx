@@ -1,10 +1,11 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 
 export default function Hero() {
   const t = useTranslations('hero');
+  const locale = useLocale();
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-raspberry via-lavender to-teal py-20 md:py-32">
@@ -43,7 +44,7 @@ export default function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-[300px] md:w-[350px] drop-shadow-2xl">
               <Image
-                src="/screenshots/1-Home-Page.png"
+                src={`/screenshots/${locale.toUpperCase()}/1-HomePage.png`}
                 alt="Bilan Couple App"
                 width={350}
                 height={700}
