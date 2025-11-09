@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import ObfuscatedEmail from "./ObfuscatedEmail";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -57,12 +58,10 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-ink mb-3">{t("contact")}</h4>
             <p className="text-slate-700 text-sm">
-              <a
-                href="mailto:svendxs@gmail.com"
+              <ObfuscatedEmail
+                encoded="c3ZlbmR4c0BnbWFpbC5jb20="
                 className="hover:text-raspberry transition-colors"
-              >
-                svendxs@gmail.com
-              </a>
+              />
             </p>
           </div>
         </div>
