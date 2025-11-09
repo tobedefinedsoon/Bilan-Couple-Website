@@ -1,33 +1,34 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
-
-const steps = [
-  {
-    key: 'step1',
-    image: '/screenshots/3-Preparation.png',
-    gradient: 'from-raspberry to-teal',
-  },
-  {
-    key: 'step2',
-    image: '/screenshots/4-Session.png',
-    gradient: 'from-teal to-lavender',
-  },
-  {
-    key: 'step3',
-    image: '/screenshots/5-Action.png',
-    gradient: 'from-lavender to-raspberry',
-  },
-  {
-    key: 'step4',
-    image: '/screenshots/6-ActionSummary.png',
-    gradient: 'from-raspberry to-teal',
-  },
-];
 
 export default function ProcessSection() {
   const t = useTranslations('process');
+  const locale = useLocale();
+
+  const steps = [
+    {
+      key: 'step1',
+      image: `/screenshots/${locale.toUpperCase()}/3-Preparation.png`,
+      gradient: 'from-raspberry to-teal',
+    },
+    {
+      key: 'step2',
+      image: `/screenshots/${locale.toUpperCase()}/4-Session.png`,
+      gradient: 'from-teal to-lavender',
+    },
+    {
+      key: 'step3',
+      image: `/screenshots/${locale.toUpperCase()}/5-Action.png`,
+      gradient: 'from-lavender to-raspberry',
+    },
+    {
+      key: 'step4',
+      image: `/screenshots/${locale.toUpperCase()}/6-ActionSummary.png`,
+      gradient: 'from-raspberry to-teal',
+    },
+  ];
 
   return (
     <section className="py-20 bg-white">
