@@ -101,8 +101,223 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
-    "comingSoon": "Cette page sera bientôt disponible.",
-    "description": "Nous travaillons actuellement sur notre politique de confidentialité détaillée. Revenez bientôt !",
-    "backHome": "Retour à l'accueil"
+    "lastUpdated": "Dernière mise à jour : 9 novembre 2025",
+    "intro": {
+      "text": "Bilan Couple (« l'Application ») s'engage à protéger votre vie privée et vos données personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons, partageons et protégeons vos informations conformément au Règlement Général sur la Protection des Données (RGPD) et à la Loi fédérale suisse sur la protection des données (LPD)."
+    },
+    "controller": {
+      "title": "1. Responsable du traitement",
+      "name": "Sven Borden",
+      "address": "Route d'Yverdon 34a, 1028 Préverenges, Suisse",
+      "email": "svendxs@gmail.com",
+      "dpo": "Délégué à la protection des données : Sven Borden"
+    },
+    "dataCollected": {
+      "title": "2. Données que nous collectons",
+      "intro": "Nous collectons les données suivantes lorsque vous utilisez l'Application :",
+      "account": {
+        "title": "Données de compte",
+        "items": [
+          "Adresse e-mail (via Google Sign-In)",
+          "Nom (via Google Sign-In)",
+          "Identifiant utilisateur unique (Firebase Authentication)"
+        ]
+      },
+      "profile": {
+        "title": "Données de profil",
+        "items": [
+          "Statut de couple (couplé ou non)",
+          "Identifiant du couple",
+          "Dates de création et de mise à jour"
+        ]
+      },
+      "content": {
+        "title": "Contenu créé par l'utilisateur",
+        "items": [
+          "Réponses aux questions de réflexion (strictement privées, jamais partagées avec votre partenaire)",
+          "Actions créées pendant les sessions (partagées avec votre partenaire)",
+          "Questions et catégories personnalisées (partagées avec votre couple)"
+        ]
+      },
+      "usage": {
+        "title": "Données d'utilisation",
+        "items": [
+          "Sessions programmées et complétées",
+          "Progression dans les sessions",
+          "Nombre de réponses par session (pas le contenu)",
+          "Horodatages de création/modification",
+          "Jetons de notification push (FCM)",
+          "Données analytiques (métadonnées uniquement, jamais de contenu personnel)"
+        ]
+      },
+      "technical": {
+        "title": "Données techniques",
+        "items": [
+          "Type d'appareil et version iOS",
+          "Rapports de plantage et journaux d'erreurs (Firebase Crashlytics)",
+          "Données de performance de l'application"
+        ]
+      }
+    },
+    "howWeUse": {
+      "title": "3. Comment nous utilisons vos données",
+      "intro": "Nous utilisons vos données personnelles pour :",
+      "items": [
+        "Fournir et maintenir les fonctionnalités de l'Application",
+        "Vous authentifier et gérer votre compte",
+        "Synchroniser vos données entre vos appareils",
+        "Permettre le couplage avec votre partenaire",
+        "Stocker vos réponses privées (accessibles uniquement par vous)",
+        "Partager les actions avec votre partenaire (uniquement)",
+        "Envoyer des notifications push (rappels de session, notifications d'actions)",
+        "Améliorer l'Application via des analyses anonymisées",
+        "Détecter et corriger les erreurs techniques",
+        "Respecter nos obligations légales"
+      ]
+    },
+    "legalBasis": {
+      "title": "4. Base juridique du traitement (RGPD)",
+      "intro": "Nous traitons vos données personnelles sur les bases suivantes :",
+      "consent": {
+        "title": "Consentement (Art. 6(1)(a) RGPD)",
+        "text": "Vous consentez au traitement en créant un compte et en utilisant l'Application."
+      },
+      "contract": {
+        "title": "Exécution du contrat (Art. 6(1)(b) RGPD)",
+        "text": "Le traitement est nécessaire pour fournir les services de l'Application."
+      },
+      "legitimate": {
+        "title": "Intérêts légitimes (Art. 6(1)(f) RGPD)",
+        "text": "Amélioration de l'Application, détection d'erreurs et sécurité."
+      }
+    },
+    "privacyFirst": {
+      "title": "5. Conception axée sur la confidentialité",
+      "intro": "Bilan Couple est conçu en mettant la confidentialité au premier plan :",
+      "items": [
+        "Vos réponses aux questions sont strictement privées - votre partenaire ne peut JAMAIS les voir",
+        "L'accès aux réponses est protégé par des règles de sécurité Firebase (propriétaire uniquement)",
+        "Les analyses ne collectent JAMAIS le contenu des réponses ou des données personnelles",
+        "Les jetons de notification sont supprimés lors de la déconnexion",
+        "Toutes les données sont chiffrées en transit (HTTPS/TLS)",
+        "Les données au repos sont stockées dans des centres de données sécurisés Firebase (région europe-west)"
+      ]
+    },
+    "sharing": {
+      "title": "6. Partage de données",
+      "intro": "Nous ne vendons jamais vos données. Nous partageons des données limitées avec :",
+      "firebase": {
+        "title": "Google Firebase (Processeur de données)",
+        "services": "Services : Authentification, Base de données (Firestore), Analyses, Rapports de plantage, Messagerie Cloud",
+        "location": "Localisation : Centres de données européens",
+        "privacy": "Politique de confidentialité : https://firebase.google.com/support/privacy"
+      },
+      "apple": {
+        "title": "Apple Inc.",
+        "services": "Services : Distribution via App Store, Notifications push (APNs)",
+        "privacy": "Politique de confidentialité : https://www.apple.com/legal/privacy/"
+      },
+      "partner": {
+        "title": "Votre partenaire (dans l'Application uniquement)",
+        "items": [
+          "Métadonnées de session (dates, statuts)",
+          "Actions créées (titres et descriptions)",
+          "Questions et catégories personnalisées",
+          "PAS vos réponses - elles restent strictement privées"
+        ]
+      }
+    },
+    "retention": {
+      "title": "7. Conservation des données",
+      "active": {
+        "title": "Comptes actifs",
+        "text": "Nous conservons vos données tant que votre compte est actif."
+      },
+      "deletion": {
+        "title": "Après suppression du compte",
+        "text": "Lorsque vous demandez la suppression de votre compte :",
+        "items": [
+          "Toutes vos données personnelles sont supprimées dans les 30 jours",
+          "Une période de grâce de 30 jours permet une récupération éventuelle",
+          "Après 30 jours, la suppression est permanente et irréversible",
+          "Les données analytiques anonymisées peuvent être conservées conformément à la politique de Firebase (14 mois)"
+        ]
+      }
+    },
+    "yourRights": {
+      "title": "8. Vos droits (RGPD)",
+      "intro": "Vous disposez des droits suivants concernant vos données personnelles :",
+      "access": {
+        "title": "Droit d'accès (Art. 15)",
+        "text": "Demander une copie de vos données personnelles."
+      },
+      "rectification": {
+        "title": "Droit de rectification (Art. 16)",
+        "text": "Corriger des données inexactes ou incomplètes."
+      },
+      "erasure": {
+        "title": "Droit à l'effacement (Art. 17)",
+        "text": "Demander la suppression de vos données (« droit à l'oubli »)."
+      },
+      "portability": {
+        "title": "Droit à la portabilité (Art. 20)",
+        "text": "Recevoir vos données dans un format structuré et lisible par machine."
+      },
+      "restriction": {
+        "title": "Droit de limitation (Art. 18)",
+        "text": "Demander la limitation du traitement de vos données."
+      },
+      "objection": {
+        "title": "Droit d'opposition (Art. 21)",
+        "text": "Vous opposer au traitement de vos données."
+      },
+      "withdraw": {
+        "title": "Retrait du consentement",
+        "text": "Retirer votre consentement à tout moment (sans affecter la licéité du traitement antérieur)."
+      },
+      "howTo": {
+        "title": "Comment exercer vos droits",
+        "inApp": "Dans l'Application : Accédez à Paramètres → Exporter mes données ou Supprimer mon compte",
+        "email": "Par e-mail : Contactez-nous à svendxs@gmail.com",
+        "response": "Nous répondrons à votre demande dans un délai de 30 jours."
+      }
+    },
+    "security": {
+      "title": "9. Sécurité des données",
+      "intro": "Nous mettons en œuvre des mesures de sécurité appropriées :",
+      "items": [
+        "Chiffrement en transit (TLS/HTTPS)",
+        "Firebase Authentication pour une gestion sécurisée des comptes",
+        "Règles de sécurité Firestore (accès propriétaire uniquement pour les réponses)",
+        "Audits de sécurité réguliers",
+        "Stockage de données dans des centres de données certifiés (Firebase/Google Cloud)",
+        "Minimisation des données - nous ne collectons que ce qui est nécessaire"
+      ]
+    },
+    "children": {
+      "title": "10. Confidentialité des enfants",
+      "text": "L'Application est destinée aux utilisateurs âgés de 16 ans et plus. Nous ne collectons pas sciemment de données personnelles auprès d'enfants de moins de 16 ans. Si vous pensez qu'un enfant nous a fourni des données, contactez-nous à svendxs@gmail.com et nous les supprimerons."
+    },
+    "international": {
+      "title": "11. Transferts internationaux de données",
+      "text": "Vos données sont stockées principalement dans des centres de données européens Firebase. Si des données sont transférées hors de l'UE/EEE, nous nous assurons que des garanties appropriées sont en place (clauses contractuelles types de l'UE, décisions d'adéquation)."
+    },
+    "changes": {
+      "title": "12. Modifications de cette politique",
+      "text": "Nous pouvons mettre à jour cette politique de confidentialité périodiquement. Nous vous informerons de tout changement significatif via l'Application ou par e-mail. L'utilisation continue de l'Application après les modifications constitue votre acceptation de la nouvelle politique."
+    },
+    "complaints": {
+      "title": "13. Déposer une plainte",
+      "text": "Si vous estimez que vos droits à la protection des données ont été violés, vous avez le droit de déposer une plainte auprès de votre autorité de protection des données locale :",
+      "swiss": "Suisse : Préposé fédéral à la protection des données et à la transparence (PFPDT) - https://www.edoeb.admin.ch/",
+      "eu": "UE/EEE : Votre autorité de protection des données nationale - https://edpb.europa.eu/about-edpb/board/members_fr"
+    },
+    "contact": {
+      "title": "14. Nous contacter",
+      "intro": "Pour toute question concernant cette politique de confidentialité ou pour exercer vos droits :",
+      "email": "E-mail : svendxs@gmail.com",
+      "address": "Adresse : Sven Borden, Route d'Yverdon 34a, 1028 Préverenges, Suisse",
+      "response": "Nous nous engageons à répondre dans les 30 jours."
+    }
   }
 }
