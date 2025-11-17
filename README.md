@@ -53,12 +53,30 @@ Currently, the download buttons have placeholder links (`#`). Update these in:
 
 Replace `href="#"` with actual App Store and Google Play URLs when available.
 
+## Repository Structure
+
+This website is automatically synced from the main [Bilan-Couple](https://github.com/tobedefinedsoon/Bilan-Couple) repository.
+
+### Automated Sync Workflow
+
+Changes to the `website/` folder in the main repository automatically:
+1. Sync to this repository's `develop` branch
+2. Create a pull request to `main`
+3. Once reviewed and merged, trigger deployment
+
+**To make changes:**
+1. Edit files in the `website/` folder of the main repository
+2. Push to the `main` branch
+3. The GitHub Action will create a PR in this repository
+4. Review and merge the PR to deploy
+
 ## Deploy on Vercel
 
 The easiest way to deploy is to use the [Vercel Platform](https://vercel.com/new).
 
-1. Push the code to GitHub
-2. Import the project in Vercel
-3. Set the root directory to `website`
+1. Import this repository in Vercel
+2. Set the root directory to `/` (repository root)
+3. Configure auto-deploy on `main` branch
 4. Deploy
-# Test change - Wed Nov  5 13:21:30 UTC 2025
+
+The website will automatically redeploy when PRs are merged to `main`.
