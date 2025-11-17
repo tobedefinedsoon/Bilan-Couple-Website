@@ -26,7 +26,9 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#"
+                href="https://apps.apple.com/us/app/couple-check-in/id6754213744"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-white text-raspberry px-8 py-4 rounded-xl font-semibold hover:bg-blush transition-colors shadow-lg hover:shadow-xl"
               >
                 {t('cta')}
