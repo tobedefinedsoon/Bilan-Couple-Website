@@ -2,7 +2,8 @@
   "nav": {
     "appName": "Bilan Couple",
     "home": "Accueil",
-    "privacy": "Confidentialité"
+    "privacy": "Confidentialité",
+    "language": "Langue"
   },
   "hero": {
     "title": "Renforcez votre relation",
