@@ -107,7 +107,7 @@
     },
     "q2": {
       "question": "Mes réponses sont-elles vraiment privées ?",
-      "answer": "Absolument. Vos réponses individuelles sont strictement privées et protégées par les règles de sécurité Firebase. Votre partenaire ne peut JAMAIS les voir. Seules les actions partagées sont visibles pour les deux partenaires."
+      "answer": "Absolument. Vos réponses individuelles sont strictement privées et protégées par des règles de sécurité côté serveur. Votre partenaire ne peut JAMAIS les voir. Seules les actions partagées sont visibles pour les deux partenaires."
     },
     "q3": {
       "question": "Et si mon partenaire n'est pas intéressé ?",
