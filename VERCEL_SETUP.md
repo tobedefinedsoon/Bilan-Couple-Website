@@ -117,15 +117,44 @@ Production events appear in Firebase Console after a delay:
 
 ### Security
 
-✅ **Safe to expose**: Firebase web config values are designed to be public
-- `apiKey` is **NOT** a secret (it's a client-side identifier)
-- Security is enforced by Firebase Security Rules, not API key secrecy
-- All values are visible in browser network traffic anyway
+#### About the "NEXT_PUBLIC_FIREBASE_API_KEY" Warning ⚠️
 
-❌ **Never expose**:
+**Vercel will show a warning**: *"This key might expose sensitive information to the browser"*
+
+**This warning is SAFE TO IGNORE for Firebase web config.** Here's why:
+
+✅ **Firebase web API keys are NOT secret keys**:
+- They're **client identifiers** designed to be publicly visible
+- Every Firebase web app exposes them in browser source code
+- Security is enforced by **Firebase Security Rules**, not by hiding the API key
+- The API key just identifies which Firebase project to connect to
+
+**Official Firebase Documentation** ([source](https://firebase.google.com/docs/projects/api-keys)):
+> *"Unlike how API keys are typically used, API keys for Firebase services are not used to control access to backend resources; that can only be done with Firebase Security Rules."*
+
+> *"Usually, you need to fastidiously guard API keys; but API keys for Firebase services are OK to include in code or checked-in config files."*
+
+#### What IS Safe to Expose
+
+✅ **All Firebase web config values** (designed for public use):
+- `NEXT_PUBLIC_FIREBASE_API_KEY` ← This is safe!
+- `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`
+- `NEXT_PUBLIC_FIREBASE_PROJECT_ID`
+- `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET`
+- `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID`
+- `NEXT_PUBLIC_FIREBASE_APP_ID`
+- `NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID`
+
+All these values are visible in browser network requests and source code.
+
+#### What to NEVER Expose
+
+❌ **Never expose these** (not used in this project):
 - Firebase Admin SDK private keys
 - Service account JSON files
 - Database passwords
+- OAuth client secrets
+- Server-side API keys
 
 ### Environment Variable Scope
 
