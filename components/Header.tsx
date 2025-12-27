@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
+import { trackNavigation, trackLanguageChange } from '@/lib/analytics';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -18,6 +19,9 @@ export default function Header() {
 
   const switchLanguage = (newLocale: string) => {
     const currentLocale = getCurrentLocale();
+    if (currentLocale !== newLocale) {
+      trackLanguageChange(currentLocale, newLocale);
+    }
     const newPath = pathname.replace(`/${currentLocale}`, `/${newLocale}`);
     router.push(newPath);
     setIsMobileMenuOpen(false);
@@ -31,7 +35,11 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-300">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo and Brand Name */}
-        <Link href={`/${getCurrentLocale()}`} className="flex items-center gap-3">
+        <Link
+          href={`/${getCurrentLocale()}`}
+          className="flex items-center gap-3"
+          onClick={() => trackNavigation('home', 'header', getCurrentLocale())}
+        >
           <Image
             src="/BilanCoupleLogo.png"
             alt="Bilan Couple"
@@ -49,12 +57,14 @@ export default function Header() {
           <Link
             href={`/${getCurrentLocale()}`}
             className="text-slate-700 hover:text-raspberry transition-colors"
+            onClick={() => trackNavigation('home', 'header', getCurrentLocale())}
           >
             {t('home')}
           </Link>
           <Link
             href={`/${getCurrentLocale()}/privacy`}
             className="text-slate-700 hover:text-raspberry transition-colors"
+            onClick={() => trackNavigation('privacy', 'header', getCurrentLocale())}
           >
             {t('privacy')}
           </Link>
@@ -151,14 +161,20 @@ export default function Header() {
           <div className="flex flex-col space-y-4">
             <Link
               href={`/${getCurrentLocale()}`}
-              onClick={closeMobileMenu}
+              onClick={() => {
+                trackNavigation('home', 'header', getCurrentLocale());
+                closeMobileMenu();
+              }}
               className="text-lg text-slate-700 hover:text-raspberry transition-colors py-2"
             >
               {t('home')}
             </Link>
             <Link
               href={`/${getCurrentLocale()}/privacy`}
-              onClick={closeMobileMenu}
+              onClick={() => {
+                trackNavigation('privacy', 'header', getCurrentLocale());
+                closeMobileMenu();
+              }}
               className="text-lg text-slate-700 hover:text-raspberry transition-colors py-2"
             >
               {t('privacy')}

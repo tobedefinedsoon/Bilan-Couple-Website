@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import ObfuscatedEmail from "./ObfuscatedEmail";
+import { trackNavigation } from "@/lib/analytics";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -39,6 +40,7 @@ export default function Footer() {
                 <Link
                   href={`/${getCurrentLocale()}`}
                   className="text-slate-700 hover:text-raspberry transition-colors text-sm"
+                  onClick={() => trackNavigation('home', 'footer', getCurrentLocale())}
                 >
                   {getCurrentLocale() === "fr" ? "Accueil" : "Home"}
                 </Link>
@@ -47,6 +49,7 @@ export default function Footer() {
                 <Link
                   href={`/${getCurrentLocale()}/privacy`}
                   className="text-slate-700 hover:text-raspberry transition-colors text-sm"
+                  onClick={() => trackNavigation('privacy', 'footer', getCurrentLocale())}
                 >
                   {t("privacy")}
                 </Link>
