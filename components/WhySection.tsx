@@ -17,6 +17,26 @@ export default function WhySection() {
             {t('description')}
           </p>
 
+          {/* Key Benefits */}
+          <div className="grid md:grid-cols-2 gap-4 mb-12">
+            <div className="flex items-start gap-3 p-4 bg-white rounded-xl border border-gray-200">
+              <span className="text-2xl">✓</span>
+              <span className="text-slate-700">{t('benefit1')}</span>
+            </div>
+            <div className="flex items-start gap-3 p-4 bg-white rounded-xl border border-gray-200">
+              <span className="text-2xl">✓</span>
+              <span className="text-slate-700">{t('benefit2')}</span>
+            </div>
+            <div className="flex items-start gap-3 p-4 bg-white rounded-xl border border-gray-200">
+              <span className="text-2xl">✓</span>
+              <span className="text-slate-700">{t('benefit3')}</span>
+            </div>
+            <div className="flex items-start gap-3 p-4 bg-white rounded-xl border border-gray-200">
+              <span className="text-2xl">✓</span>
+              <span className="text-slate-700">{t('benefit4')}</span>
+            </div>
+          </div>
+
           <div className="bg-gradient-to-br from-raspberry/10 to-lavender/10 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-ink mb-6">{t('perfectFor')}</h3>
             <ul className="space-y-4">

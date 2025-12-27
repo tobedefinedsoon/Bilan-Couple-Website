@@ -4,6 +4,7 @@ import ProcessSection from '@/components/ProcessSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import WhySection from '@/components/WhySection';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 
@@ -16,6 +17,7 @@ export default function Home() {
       <FeaturesSection />
       <WhySection />
       <TestimonialsSection />
+      <FAQSection />
       <CTASection />
       <Footer />
     </main>

@@ -6,11 +6,11 @@
     "language": "Language"
   },
   "hero": {
-    "title": "Strengthen your relationship",
-    "titleHighlight": "one quarter at a time",
-    "subtitle": "Couple Check-In helps couples build stronger relationships through structured quarterly review sessions.",
-    "cta": "Download on App Store",
-    "ctaGoogle": "Coming soon to Google Play"
+    "title": "The relationship ritual",
+    "titleHighlight": "that actually works",
+    "subtitle": "Transform 'we should talk more' into meaningful conversations that strengthen your bond—one quarter at a time.",
+    "cta": "Start Free Trial",
+    "ctaGoogle": "Get it on Google Play"
   },
   "process": {
     "title": "How it works",
@@ -60,7 +60,11 @@
   },
   "why": {
     "title": "Why quarterly reviews?",
-    "description": "Research shows that couples who regularly reflect on their relationship experience higher satisfaction, better communication, and stronger emotional bonds. Couple Check-In makes this practice simple, structured, and sustainable.",
+    "description": "Quarterly reviews hit the sweet spot: frequent enough to catch small issues before they grow, spaced enough to see real progress between sessions. It creates a ritual you'll actually look forward to.",
+    "benefit1": "Frequent enough to catch small issues before they grow",
+    "benefit2": "Spaced enough to see real progress between sessions",
+    "benefit3": "Creates a ritual you'll actually look forward to",
+    "benefit4": "Proactive relationship care, not reactive problem-solving",
     "perfectFor": "Perfect for:",
     "audience1": "Couples seeking intentional relationship growth",
     "audience2": "Partners who value structured communication",
@@ -91,9 +95,36 @@
   },
   "cta": {
     "title": "Start strengthening your relationship today",
-    "subtitle": "Download Couple Check-In and schedule your first quarterly review",
-    "download": "Download on App Store",
-    "downloadGoogle": "Coming soon to Google Play"
+    "subtitle": "Try your first 2 months free. Then just $10/year—less than $1/month to invest in your relationship.",
+    "download": "Start Free Trial",
+    "downloadGoogle": "Get it on Google Play"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "How long does a session take?",
+      "answer": "Plan for 60-90 minutes for your in-person session. You'll each spend 15-30 minutes preparing individually beforehand."
+    },
+    "q2": {
+      "question": "Are my answers really private?",
+      "answer": "Absolutely. Your individual answers are strictly private and protected by Firebase security rules. Your partner can NEVER see them. Only shared action items are visible to both partners."
+    },
+    "q3": {
+      "question": "What if my partner isn't interested?",
+      "answer": "Share this: Couple Check-In isn't therapy or a sign of problems—it's preventive care for your relationship. Most couples find it strengthens what's already good and catches small issues before they grow."
+    },
+    "q4": {
+      "question": "Can we customize the questions?",
+      "answer": "Yes! The app includes 42 expert-crafted questions, and you can add your own custom questions and categories that matter to your relationship."
+    },
+    "q5": {
+      "question": "What's included in the free trial?",
+      "answer": "Everything! You get full access to all features for 2 months free. No credit card required to start."
+    },
+    "q6": {
+      "question": "What happens after the trial?",
+      "answer": "After 2 months, continue for just $10/year (less than $1/month). Cancel anytime with no hassle."
+    }
   },
   "footer": {
     "copyright": "© 2025 Couple Check-In. All rights reserved.",

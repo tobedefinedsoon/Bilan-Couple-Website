@@ -28,7 +28,9 @@ export default function CTASection() {
             {t('download')}
           </a>
           <a
-            href="#"
+            href="ABC"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-ink text-white px-8 py-4 rounded-xl font-semibold hover:bg-slate-700 transition-colors shadow-lg hover:shadow-xl"
           >
             {t('downloadGoogle')}
