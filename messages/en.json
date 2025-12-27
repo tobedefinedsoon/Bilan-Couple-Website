@@ -107,7 +107,7 @@
     },
     "q2": {
       "question": "Are my answers really private?",
-      "answer": "Absolutely. Your individual answers are strictly private and protected by Firebase security rules. Your partner can NEVER see them. Only shared action items are visible to both partners."
+      "answer": "Absolutely. Your individual answers are strictly private and protected by secure server-side rules. Your partner can NEVER see them. Only shared action items are visible to both partners."
     },
     "q3": {
       "question": "What if my partner isn't interested?",
