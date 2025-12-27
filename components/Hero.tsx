@@ -34,7 +34,9 @@ export default function Hero() {
                 {t('cta')}
               </a>
               <a
-                href="#"
+                href="ABC"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-teal text-white px-8 py-4 rounded-xl font-semibold hover:bg-teal/90 transition-colors shadow-lg hover:shadow-xl"
               >
                 {t('ctaGoogle')}

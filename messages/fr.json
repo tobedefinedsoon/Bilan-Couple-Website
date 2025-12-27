@@ -6,11 +6,11 @@
     "language": "Langue"
   },
   "hero": {
-    "title": "Renforcez votre relation",
-    "titleHighlight": "un trimestre à la fois",
-    "subtitle": "Bilan Couple aide les couples à construire des relations plus solides grâce à des sessions de bilan trimestrielles structurées.",
-    "cta": "Télécharger sur l'App Store",
-    "ctaGoogle": "Bientôt disponible sur Google Play"
+    "title": "Le rituel de couple",
+    "titleHighlight": "qui fonctionne vraiment",
+    "subtitle": "Transformez \"on devrait plus parler\" en conversations profondes qui renforcent votre lien—un trimestre à la fois.",
+    "cta": "Essai gratuit",
+    "ctaGoogle": "Télécharger sur Google Play"
   },
   "process": {
     "title": "Comment ça marche",
@@ -60,7 +60,11 @@
   },
   "why": {
     "title": "Pourquoi des bilans trimestriels ?",
-    "description": "Les recherches montrent que les couples qui réfléchissent régulièrement sur leur relation connaissent une satisfaction plus élevée, une meilleure communication et des liens émotionnels plus forts. Bilan Couple rend cette pratique simple, structurée et durable.",
+    "description": "Les bilans trimestriels trouvent le juste équilibre : assez fréquents pour détecter les petits problèmes avant qu'ils grandissent, assez espacés pour voir de vrais progrès entre les sessions. Ça crée un rituel que vous attendrez avec impatience.",
+    "benefit1": "Assez fréquents pour détecter les petits problèmes avant qu'ils grandissent",
+    "benefit2": "Assez espacés pour voir de vrais progrès entre les sessions",
+    "benefit3": "Crée un rituel que vous attendrez avec impatience",
+    "benefit4": "Soin relationnel proactif, pas réactif",
     "perfectFor": "Parfait pour :",
     "audience1": "Les couples cherchant une croissance relationnelle intentionnelle",
     "audience2": "Les partenaires qui valorisent la communication structurée",
@@ -91,9 +95,36 @@
   },
   "cta": {
     "title": "Commencez à renforcer votre relation aujourd'hui",
-    "subtitle": "Téléchargez Bilan Couple et planifiez votre premier bilan trimestriel",
-    "download": "Télécharger sur l'App Store",
-    "downloadGoogle": "Bientôt disponible sur Google Play"
+    "subtitle": "Essayez gratuitement pendant 2 mois. Puis seulement 10$/an—moins de 1$/mois pour investir dans votre relation.",
+    "download": "Essai gratuit",
+    "downloadGoogle": "Télécharger sur Google Play"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "q1": {
+      "question": "Combien de temps dure une session ?",
+      "answer": "Prévoyez 60-90 minutes pour votre session en personne. Vous passerez chacun 15-30 minutes à vous préparer individuellement au préalable."
+    },
+    "q2": {
+      "question": "Mes réponses sont-elles vraiment privées ?",
+      "answer": "Absolument. Vos réponses individuelles sont strictement privées et protégées par les règles de sécurité Firebase. Votre partenaire ne peut JAMAIS les voir. Seules les actions partagées sont visibles pour les deux partenaires."
+    },
+    "q3": {
+      "question": "Et si mon partenaire n'est pas intéressé ?",
+      "answer": "Partagez ceci : Bilan Couple n'est pas une thérapie ni un signe de problèmes—c'est un soin préventif pour votre relation. La plupart des couples trouvent que ça renforce ce qui est déjà bon et détecte les petits problèmes avant qu'ils grandissent."
+    },
+    "q4": {
+      "question": "Peut-on personnaliser les questions ?",
+      "answer": "Oui ! L'application inclut 42 questions élaborées par des experts, et vous pouvez ajouter vos propres questions et catégories personnalisées qui comptent pour votre relation."
+    },
+    "q5": {
+      "question": "Qu'est-ce qui est inclus dans l'essai gratuit ?",
+      "answer": "Tout ! Vous avez accès à toutes les fonctionnalités pendant 2 mois gratuitement. Aucune carte de crédit requise pour commencer."
+    },
+    "q6": {
+      "question": "Que se passe-t-il après l'essai ?",
+      "answer": "Après 2 mois, continuez pour seulement 10$/an (moins de 1$/mois). Annulez à tout moment sans tracas."
+    }
   },
   "footer": {
     "copyright": "© 2025 Bilan Couple. Tous droits réservés.",
