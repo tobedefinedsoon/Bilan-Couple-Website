@@ -123,6 +123,7 @@ export default function Header() {
         className={`fixed top-0 right-0 h-full w-64 bg-white shadow-xl z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
+        style={{ backgroundColor: '#ffffff' }}
       >
         <div className="flex flex-col p-6 space-y-6">
           {/* Close Button */}
