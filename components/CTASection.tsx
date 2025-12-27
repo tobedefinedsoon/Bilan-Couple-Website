@@ -1,9 +1,11 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { trackAppStoreClick } from '@/lib/analytics';
 
 export default function CTASection() {
   const t = useTranslations('cta');
+  const locale = useLocale();
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-teal via-lavender to-raspberry py-20 md:py-32">
@@ -24,6 +26,7 @@ export default function CTASection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-raspberry px-8 py-4 rounded-xl font-semibold hover:bg-blush transition-colors shadow-lg hover:shadow-xl"
+            onClick={() => trackAppStoreClick('app_store', 'cta_section', locale)}
           >
             {t('download')}
           </a>
@@ -32,6 +35,7 @@ export default function CTASection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-ink text-white px-8 py-4 rounded-xl font-semibold hover:bg-slate-700 transition-colors shadow-lg hover:shadow-xl"
+            onClick={() => trackAppStoreClick('play_store', 'cta_section', locale)}
           >
             {t('downloadGoogle')}
           </a>

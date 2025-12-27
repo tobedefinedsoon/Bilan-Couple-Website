@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useLocale } from "next-intl";
+import { trackEmailReveal } from "@/lib/analytics";
 
 interface ObfuscatedEmailProps {
   /** Base64 encoded email address */
@@ -30,6 +32,7 @@ export default function ObfuscatedEmail({
   asLink = true,
 }: ObfuscatedEmailProps) {
   const [email, setEmail] = useState<string>("");
+  const locale = useLocale();
 
   useEffect(() => {
     // Decode the email on the client side only
@@ -55,6 +58,8 @@ export default function ObfuscatedEmail({
         onClick={(e) => {
           // Additional protection: prevent automated clicks
           e.stopPropagation();
+          // Track email reveal for analytics
+          trackEmailReveal(locale);
         }}
       >
         {email}
