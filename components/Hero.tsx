@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
+import { trackAppStoreClick } from '@/lib/analytics';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -30,6 +31,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white text-raspberry px-8 py-4 rounded-xl font-semibold hover:bg-blush transition-colors shadow-lg hover:shadow-xl"
+                onClick={() => trackAppStoreClick('app_store', 'hero', locale)}
               >
                 {t('cta')}
               </a>
@@ -38,6 +40,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-teal text-white px-8 py-4 rounded-xl font-semibold hover:bg-teal/90 transition-colors shadow-lg hover:shadow-xl"
+                onClick={() => trackAppStoreClick('play_store', 'hero', locale)}
               >
                 {t('ctaGoogle')}
               </a>
