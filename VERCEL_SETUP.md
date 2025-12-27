@@ -16,18 +16,24 @@ Add these **7 environment variables** one by one:
 
 | Variable Name | Value |
 |--------------|-------|
-| `NEXT_PUBLIC_FIREBASE_API_KEY` | `AIzaSyBEkjZOU-2_MuxszZGE24XH2ZVdVzJBSco` |
-| `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN` | `bilan-couple.firebaseapp.com` |
-| `NEXT_PUBLIC_FIREBASE_PROJECT_ID` | `bilan-couple` |
-| `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET` | `bilan-couple.firebasestorage.app` |
-| `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID` | `496991294245` |
-| `NEXT_PUBLIC_FIREBASE_APP_ID` | `1:496991294245:web:885e9b241d300c2e6440cc` |
-| `NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID` | `G-4MXJYQQMZL` |
+| `NEXT_PUBLIC_FIREBASE_API_KEY` | Get from Firebase Console |
+| `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN` | Get from Firebase Console |
+| `NEXT_PUBLIC_FIREBASE_PROJECT_ID` | Get from Firebase Console |
+| `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET` | Get from Firebase Console |
+| `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID` | Get from Firebase Console |
+| `NEXT_PUBLIC_FIREBASE_APP_ID` | Get from Firebase Console |
+| `NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID` | Get from Firebase Console |
+
+**To get these values**:
+1. Go to [Firebase Console](https://console.firebase.google.com/project/bilan-couple/settings/general)
+2. Scroll to "Your apps" section → Select the Web app
+3. Click "Config" to see the Firebase configuration
+4. Copy each value to Vercel
 
 **For each variable**:
 1. Click **"Add New"**
 2. Enter the **Name** (e.g., `NEXT_PUBLIC_FIREBASE_API_KEY`)
-3. Enter the **Value** (e.g., `AIzaSyBEkjZOU-2_MuxszZGE24XH2ZVdVzJBSco`)
+3. Enter the **Value** (copy from Firebase Console)
 4. Select environments: ✅ **Production**, ✅ **Preview**, ✅ **Development**
 5. Click **"Save"**
 
@@ -58,28 +64,17 @@ vercel login
 cd website
 vercel link
 
-# Add all environment variables
+# Add all environment variables (get values from Firebase Console)
 vercel env add NEXT_PUBLIC_FIREBASE_API_KEY
-# When prompted, paste: AIzaSyBEkjZOU-2_MuxszZGE24XH2ZVdVzJBSco
+# When prompted, paste the value from Firebase Console
 # Select: Production, Preview, Development
 
 vercel env add NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-# Paste: bilan-couple.firebaseapp.com
-
 vercel env add NEXT_PUBLIC_FIREBASE_PROJECT_ID
-# Paste: bilan-couple
-
 vercel env add NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-# Paste: bilan-couple.firebasestorage.app
-
 vercel env add NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-# Paste: 496991294245
-
 vercel env add NEXT_PUBLIC_FIREBASE_APP_ID
-# Paste: 1:496991294245:web:885e9b241d300c2e6440cc
-
 vercel env add NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
-# Paste: G-4MXJYQQMZL
 
 # Redeploy
 vercel --prod
@@ -100,7 +95,7 @@ After redeployment, check the build logs to ensure no Firebase errors:
 2. Open browser console (F12)
 3. Enable debug mode:
    ```javascript
-   window.gtag('config', 'G-4MXJYQQMZL', { debug_mode: true });
+   window.gtag('config', 'YOUR_MEASUREMENT_ID', { debug_mode: true });
    ```
 4. Navigate and interact with the site
 5. Check [Firebase DebugView](https://console.firebase.google.com/project/bilan-couple/analytics/debugview)
