@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useTranslations, useLocale } from 'next-intl';
-import Image from 'next/image';
-import { trackAppStoreClick } from '@/lib/analytics';
+import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
+import { trackAppStoreClick } from "@/lib/analytics";
 
 export default function Hero() {
-  const t = useTranslations('hero');
+  const t = useTranslations("hero");
   const locale = useLocale();
 
   return (
@@ -18,12 +18,12 @@ export default function Hero() {
           {/* Text Content */}
           <div className="text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              {t('title')}
+              {t("title")}
               <br />
-              <span className="text-blush">{t('titleHighlight')}</span>
+              <span className="text-blush">{t("titleHighlight")}</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 text-white/90 leading-relaxed">
-              {t('subtitle')}
+              {t("subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -31,18 +31,18 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white text-raspberry px-8 py-4 rounded-xl font-semibold hover:bg-blush transition-colors shadow-lg hover:shadow-xl"
-                onClick={() => trackAppStoreClick('app_store', 'hero', locale)}
+                onClick={() => trackAppStoreClick("app_store", "hero", locale)}
               >
-                {t('cta')}
+                {t("cta")}
               </a>
               <a
-                href="ABC"
+                href="https://play.google.com/store/apps/details?id=com.glaglasven.bilancouple"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-teal text-white px-8 py-4 rounded-xl font-semibold hover:bg-teal/90 transition-colors shadow-lg hover:shadow-xl"
-                onClick={() => trackAppStoreClick('play_store', 'hero', locale)}
+                onClick={() => trackAppStoreClick("play_store", "hero", locale)}
               >
-                {t('ctaGoogle')}
+                {t("ctaGoogle")}
               </a>
             </div>
           </div>
