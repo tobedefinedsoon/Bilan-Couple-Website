@@ -50,7 +50,7 @@ export async function trackCTAClick(
  */
 export async function trackAppStoreClick(
   store: 'app_store' | 'play_store',
-  source: 'hero' | 'footer' | 'cta_section',
+  source: 'hero' | 'footer' | 'cta_section' | 'pricing_trial' | 'pricing_annual' | 'pricing_bottom',
   locale: string
 ) {
   const analytics = await getFirebaseAnalytics();
@@ -128,12 +128,13 @@ export async function trackLanguageChange(
 export async function trackSectionView(
   section:
     | 'hero'
-    | 'process'
+    | 'problem'
+    | 'transformation'
     | 'features'
-    | 'why'
     | 'testimonials'
-    | 'faq'
-    | 'cta',
+    | 'about'
+    | 'pricing'
+    | 'faq',
   locale: string
 ) {
   const analytics = await getFirebaseAnalytics();

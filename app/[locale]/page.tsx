@@ -1,11 +1,12 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import ProcessSection from '@/components/ProcessSection';
+import ProblemSection from '@/components/ProblemSection';
+import TransformationSection from '@/components/TransformationSection';
 import FeaturesSection from '@/components/FeaturesSection';
-import WhySection from '@/components/WhySection';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import AboutSection from '@/components/AboutSection';
+import PricingSection from '@/components/PricingSection';
 import FAQSection from '@/components/FAQSection';
-import CTASection from '@/components/CTASection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -13,12 +14,13 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
-      <ProcessSection />
+      <ProblemSection />
+      <TransformationSection />
       <FeaturesSection />
-      <WhySection />
       <TestimonialsSection />
+      <AboutSection />
+      <PricingSection />
       <FAQSection />
-      <CTASection />
       <Footer />
     </main>
   );

@@ -25,12 +25,12 @@ export default function Hero() {
             <p className="text-lg md:text-xl mb-8 text-white/90 leading-relaxed">
               {t("subtitle")}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-6">
               <a
                 href="https://apps.apple.com/us/app/couple-check-in/id6754213744"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-white text-raspberry px-8 py-4 rounded-xl font-semibold hover:bg-blush transition-colors shadow-lg hover:shadow-xl"
+                className="inline-block bg-white text-raspberry px-8 py-4 rounded-xl font-semibold hover:bg-blush transition-colors shadow-lg hover:shadow-xl text-center"
                 onClick={() => trackAppStoreClick("app_store", "hero", locale)}
               >
                 {t("cta")}
@@ -39,15 +39,27 @@ export default function Hero() {
                 href="https://play.google.com/store/apps/details?id=com.glaglasven.bilancouple"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-teal text-white px-8 py-4 rounded-xl font-semibold hover:bg-teal/90 transition-colors shadow-lg hover:shadow-xl"
+                className="inline-block bg-teal text-white px-8 py-4 rounded-xl font-semibold hover:bg-teal/90 transition-colors shadow-lg hover:shadow-xl text-center"
                 onClick={() => trackAppStoreClick("play_store", "hero", locale)}
               >
                 {t("ctaGoogle")}
               </a>
             </div>
+            {/* Social Proof Badge */}
+            <div className="flex items-center gap-2 text-white/80 text-sm">
+              <svg
+                className="w-5 h-5 text-blush"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+              </svg>
+              <span>{t("socialProof")}</span>
+            </div>
           </div>
 
           {/* Phone Mockup */}
+          {/* PLACEHOLDER: Animated gif/Loom demo of app flow (15-30 sec) - currently showing static screenshot */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-[300px] md:w-[350px] drop-shadow-2xl">
               <Image
