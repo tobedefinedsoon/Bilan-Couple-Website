@@ -6,124 +6,198 @@
     "language": "Langue"
   },
   "hero": {
-    "title": "Le rituel de couple",
-    "titleHighlight": "qui fonctionne vraiment",
-    "subtitle": "Transformez \"on devrait plus parler\" en conversations profondes qui renforcent votre lien—un trimestre à la fois.",
-    "cta": "Télécharger sur l'App Store",
-    "ctaGoogle": "Télécharger sur Google Play"
+    "title": "Enfin avoir les conversations",
+    "titleHighlight": "qui comptent",
+    "subtitle": "42 questions co-développées avec des thérapeutes de couple et sexologues pour transformer vos intentions en vraies conversations.",
+    "cta": "Essayez gratuitement",
+    "ctaGoogle": "Essayez gratuitement",
+    "socialProof": "Questions conçues avec des professionnels de la relation"
   },
-  "process": {
-    "title": "Comment ça marche",
-    "step1": {
-      "title": "1. Préparez-vous individuellement",
-      "description": "Réfléchissez en privé à des questions réfléchies sur 6 domaines clés de la relation. Vos réponses restent complètement privées jusqu'à votre session en personne."
+  "problem": {
+    "statusQuo": "\"On devrait parler plus de notre relation...\"",
+    "intro": "Mais ça n'arrive jamais. Pourquoi ?",
+    "point1": {
+      "title": "Pas de \"quand\" naturel",
+      "description": "La vie est chargée, il n'y a jamais de moment parfait"
     },
-    "step2": {
-      "title": "2. Connectez-vous en personne",
-      "description": "Rencontrez-vous chaque trimestre pour une session structurée où vous discutez ensemble de chaque question. L'application vous guide à travers un système à deux passages."
+    "point2": {
+      "title": "Pas de \"quoi\" clair",
+      "description": "Par où commencer ? Quels sujets aborder ?"
     },
-    "step3": {
-      "title": "3. Agissez ensemble",
-      "description": "Créez des actions concrètes pendant votre session. Suivez vos engagements, célébrez les accomplissements et construisez un élan vers vos objectifs relationnels."
+    "point3": {
+      "title": "Pas de \"comment\" sûr",
+      "description": "Les conversations profondes semblent gênantes ou risquées"
+    }
+  },
+  "transformation": {
+    "title": "La solution",
+    "benefit1": {
+      "title": "Structure qui fonctionne",
+      "description": "42 questions conçues par des professionnels, pas d'improvisation"
     },
-    "step4": {
-      "title": "4. Suivez votre progression",
-      "description": "Consultez l'historique de vos sessions, revisitez vos réponses passées et voyez comment votre relation évolue au fil du temps."
+    "benefit2": {
+      "title": "Confidentialité totale",
+      "description": "Vos réponses restent privées jusqu'au moment de partager"
+    },
+    "benefit3": {
+      "title": "Participation égale",
+      "description": "Le système à deux passes garantit que chaque voix compte"
+    },
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "step1": {
+        "title": "1. Préparez-vous individuellement",
+        "description": "Réfléchissez en privé à des questions réfléchies sur 6 domaines clés de la relation. Vos réponses restent complètement privées jusqu'à votre session en personne."
+      },
+      "step2": {
+        "title": "2. Connectez-vous en personne",
+        "description": "Rencontrez-vous chaque trimestre pour une session structurée où vous discutez ensemble de chaque question. L'application vous guide à travers un système à deux passages."
+      },
+      "step3": {
+        "title": "3. Agissez ensemble",
+        "description": "Créez des actions concrètes pendant votre session. Suivez vos engagements, célébrez les accomplissements et construisez un élan vers vos objectifs relationnels."
+      },
+      "step4": {
+        "title": "4. Suivez votre progression",
+        "description": "Consultez l'historique de vos sessions, revisitez vos réponses passées et voyez comment votre relation évolue au fil du temps."
+      }
     }
   },
   "features": {
-    "title": "Fonctionnalités clés",
-    "feature1": {
-      "title": "42 questions expertes",
-      "description": "Questions soigneusement élaborées en français couvrant toutes les dimensions relationnelles"
+    "title": "Ce qui rend Bilan Couple unique",
+    "group1": {
+      "title": "Questions professionnelles",
+      "description": "42 questions à travers 6 catégories, co-développées avec des thérapeutes de couple et sexologues",
+      "points": [
+        "Vue d'ensemble de la relation",
+        "Les 3 derniers mois",
+        "Sexualité et intimité",
+        "L'avenir ensemble",
+        "Temps passé à deux",
+        "Clôture et intentions"
+      ]
     },
-    "feature2": {
-      "title": "Confidentialité d'abord",
-      "description": "Vos réponses vous appartiennent jusqu'à ce que vous les partagiez"
+    "group2": {
+      "title": "Confidentialité & Équilibre",
+      "description": "Un espace sûr pour l'honnêteté totale",
+      "points": [
+        "Vos réponses restent strictement privées",
+        "Système à deux passes pour chaque question",
+        "Personne ne domine la conversation"
+      ]
     },
-    "feature3": {
-      "title": "Synchronisation en temps réel",
-      "description": "Coordination harmonieuse du couple sur tous les appareils"
+    "group3": {
+      "title": "De la parole aux actes",
+      "description": "Transformez les discussions en changements concrets",
+      "points": [
+        "Créez des actions pendant la session",
+        "Suivez vos engagements ensemble",
+        "Voyez vos progrès au fil du temps"
+      ]
     },
-    "feature4": {
-      "title": "Notifications intelligentes",
-      "description": "Rappels doux pour vous aider à préparer et rester sur la bonne voie"
-    },
-    "feature5": {
-      "title": "Gestion des actions",
-      "description": "Transformez les réflexions en résultats avec un suivi structuré"
-    },
-    "feature6": {
-      "title": "Historique des sessions",
-      "description": "Célébrez votre parcours ensemble au fil du temps"
+    "group4": {
+      "title": "Rituel durable",
+      "description": "Un rythme trimestriel qui s'intègre à votre vie",
+      "points": [
+        "Pas de fatigue quotidienne",
+        "Rappels intelligents (7, 3, 1 jour avant)",
+        "Historique des sessions pour célébrer votre parcours"
+      ]
     }
-  },
-  "why": {
-    "title": "Pourquoi des bilans trimestriels ?",
-    "description": "Les bilans trimestriels trouvent le juste équilibre : assez fréquents pour détecter les petits problèmes avant qu'ils grandissent, assez espacés pour voir de vrais progrès entre les sessions. Ça crée un rituel que vous attendrez avec impatience.",
-    "benefit1": "Assez fréquents pour détecter les petits problèmes avant qu'ils grandissent",
-    "benefit2": "Assez espacés pour voir de vrais progrès entre les sessions",
-    "benefit3": "Crée un rituel que vous attendrez avec impatience",
-    "benefit4": "Soin relationnel proactif, pas réactif",
-    "perfectFor": "Parfait pour :",
-    "audience1": "Les couples cherchant une croissance relationnelle intentionnelle",
-    "audience2": "Les partenaires qui valorisent la communication structurée",
-    "audience3": "Tous ceux qui veulent passer de \"on devrait plus parler\" à parler réellement de manière significative"
   },
   "testimonials": {
     "title": "Ce que disent les couples",
     "testimonial1": {
       "name": "Sophie & Marc",
       "years": "5 ans ensemble",
-      "text": "Les bilans trimestriels ont transformé notre communication. On prend enfin le temps de vraiment s'écouter. L'app rend ça simple et structuré."
+      "text": "Les bilans trimestriels ont transformé notre communication. On prend enfin le temps de vraiment s'écouter. L'app rend ça simple et structuré.",
+      "highlight": "transformé notre communication"
     },
     "testimonial2": {
       "name": "Julie & Alexandre",
       "years": "2 ans ensemble",
-      "text": "On pensait que tout allait bien, mais ces questions nous ont aidés à identifier des petites choses avant qu'elles deviennent des problèmes. C'est devenu notre rituel préféré."
+      "text": "On pensait que tout allait bien, mais ces questions nous ont aidés à identifier des petites choses avant qu'elles deviennent des problèmes. C'est devenu notre rituel préféré.",
+      "highlight": "identifier des petites choses avant qu'elles deviennent des problèmes"
     },
     "testimonial3": {
       "name": "Amélie & David",
       "years": "8 ans ensemble",
-      "text": "Après 8 ans, on pensait tout savoir l'un de l'autre. Bilan Couple nous a montré qu'il y a toujours plus à découvrir. Les actions concrètes font vraiment la différence."
+      "text": "Après 8 ans, on pensait tout savoir l'un de l'autre. Bilan Couple nous a montré qu'il y a toujours plus à découvrir. Les actions concrètes font vraiment la différence.",
+      "highlight": "toujours plus à découvrir"
     },
     "testimonial4": {
       "name": "Caroline & Thomas",
       "years": "3 ans ensemble",
-      "text": "Cette app nous a donné un cadre pour avoir des conversations qu'on évitait. Maintenant, on anticipe nos sessions avec enthousiasme."
+      "text": "Cette app nous a donné un cadre pour avoir des conversations qu'on évitait. Maintenant, on anticipe nos sessions avec enthousiasme.",
+      "highlight": "un cadre pour avoir des conversations qu'on évitait"
     }
   },
-  "cta": {
-    "title": "Commencez à renforcer votre relation aujourd'hui",
-    "subtitle": "Essayez gratuitement pendant 2 mois. Puis seulement 10$/an—moins de 1$/mois pour investir dans votre relation.",
-    "download": "Télécharger sur l'App Store",
-    "downloadGoogle": "Télécharger sur Google Play"
+  "about": {
+    "title": "Notre histoire",
+    "paragraph1": "Bilan Couple est né d'une frustration personnelle : savoir qu'on devrait parler plus de notre relation, mais ne jamais trouver le bon moment ni les bons mots.",
+    "paragraph2": "En travaillant avec des thérapeutes de couple et sexologues, nous avons créé l'outil que nous aurions voulu avoir — un cadre simple qui transforme l'intention en conversation réelle, une fois par trimestre.",
+    "signature": "L'équipe Bilan Couple"
+  },
+  "pricing": {
+    "title": "Un investissement simple",
+    "subtitle": "Moins d'un café par mois pour votre relation",
+    "trial": {
+      "name": "Essai gratuit",
+      "price": "0€",
+      "period": "pendant 2 mois",
+      "features": [
+        "Accès complet à l'application",
+        "42 questions professionnelles",
+        "Sessions illimitées",
+        "Actions et suivi"
+      ],
+      "cta": "Commencer l'essai"
+    },
+    "annual": {
+      "name": "Annuel",
+      "price": "9€",
+      "period": "/an",
+      "badge": "Populaire",
+      "features": [
+        "Tout de l'essai gratuit",
+        "Questions personnalisées",
+        "Catégories personnalisées",
+        "Support prioritaire"
+      ],
+      "cta": "S'abonner"
+    },
+    "note": "Un seul achat pour les deux partenaires",
+    "noCreditCard": "Aucune carte de crédit requise pour l'essai"
   },
   "faq": {
     "title": "Questions fréquentes",
     "q1": {
-      "question": "Combien de temps dure une session ?",
-      "answer": "Prévoyez 60-90 minutes pour votre session en personne. Vous passerez chacun 15-30 minutes à vous préparer individuellement au préalable."
+      "question": "Est-ce que mon partenaire verra mes réponses ?",
+      "answer": "Non, jamais. Vos réponses individuelles sont strictement privées et protégées par des règles de sécurité côté serveur. Votre partenaire ne peut JAMAIS les voir. C'est la clé d'une préparation honnête. Seules les actions créées ensemble sont visibles pour les deux."
     },
     "q2": {
-      "question": "Mes réponses sont-elles vraiment privées ?",
-      "answer": "Absolument. Vos réponses individuelles sont strictement privées et protégées par des règles de sécurité côté serveur. Votre partenaire ne peut JAMAIS les voir. Seules les actions partagées sont visibles pour les deux partenaires."
+      "question": "Est-ce que ça remplace la thérapie de couple ?",
+      "answer": "Non. Bilan Couple est un outil de prévention et d'entretien pour les couples qui vont bien et veulent le rester. Si vous êtes en situation de crise ou de conflit important, nous recommandons de consulter un professionnel. L'app peut être un excellent complément entre les séances de thérapie."
     },
     "q3": {
-      "question": "Et si mon partenaire n'est pas intéressé ?",
-      "answer": "Partagez ceci : Bilan Couple n'est pas une thérapie ni un signe de problèmes—c'est un soin préventif pour votre relation. La plupart des couples trouvent que ça renforce ce qui est déjà bon et détecte les petits problèmes avant qu'ils grandissent."
+      "question": "Pourquoi trimestriel et pas mensuel ou hebdomadaire ?",
+      "answer": "Le rythme trimestriel est assez fréquent pour détecter les petits problèmes avant qu'ils grandissent, mais assez espacé pour voir de vrais progrès et éviter la fatigue des check-ins quotidiens. C'est un rituel que vous attendrez avec impatience, pas une corvée."
     },
     "q4": {
-      "question": "Peut-on personnaliser les questions ?",
-      "answer": "Oui ! L'application inclut 42 questions élaborées par des experts, et vous pouvez ajouter vos propres questions et catégories personnalisées qui comptent pour votre relation."
+      "question": "Comment fonctionne le système à deux passes ?",
+      "answer": "Chaque question est abordée deux fois : d'abord un partenaire partage sa réponse préparée, puis l'autre. Ensuite on inverse les rôles. Ce système garantit que chaque voix est entendue équitablement, sans qu'une personne domine la conversation."
     },
     "q5": {
-      "question": "Qu'est-ce qui est inclus dans l'essai gratuit ?",
-      "answer": "Tout ! Vous avez accès à toutes les fonctionnalités pendant 2 mois gratuitement. Aucune carte de crédit requise pour commencer."
+      "question": "Que se passe-t-il si on ne finit pas une session ?",
+      "answer": "Pas de panique ! Vous pouvez reprendre exactement où vous vous êtes arrêtés. L'application sauvegarde votre progression automatiquement. Prenez votre temps — certains couples font leur session en plusieurs fois."
     },
     "q6": {
-      "question": "Que se passe-t-il après l'essai ?",
-      "answer": "Après 2 mois, continuez pour seulement 10$/an (moins de 1$/mois). Annulez à tout moment sans tracas."
+      "question": "Est-ce que l'abonnement couvre les deux partenaires ?",
+      "answer": "Oui ! Un seul achat donne accès aux deux partenaires. Vous n'avez pas besoin de deux abonnements. C'est 9€/an pour le couple entier."
+    },
+    "q7": {
+      "question": "Puis-je annuler à tout moment ?",
+      "answer": "Absolument. Vous pouvez annuler votre abonnement à tout moment depuis les paramètres de votre compte App Store ou Google Play. Aucun engagement, aucune pénalité."
     }
   },
   "footer": {

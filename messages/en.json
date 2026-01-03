@@ -6,124 +6,198 @@
     "language": "Language"
   },
   "hero": {
-    "title": "The relationship ritual",
-    "titleHighlight": "that actually works",
-    "subtitle": "Transform 'we should talk more' into meaningful conversations that strengthen your bond—one quarter at a time.",
-    "cta": "Download on App Store",
-    "ctaGoogle": "Get it on Google Play"
+    "title": "Finally have the conversations",
+    "titleHighlight": "that matter",
+    "subtitle": "42 questions co-developed with couples therapists and sex therapists to turn your intentions into real conversations.",
+    "cta": "Try it free",
+    "ctaGoogle": "Try it free",
+    "socialProof": "Questions designed with relationship professionals"
   },
-  "process": {
-    "title": "How it works",
-    "step1": {
-      "title": "1. Prepare individually",
-      "description": "Reflect privately on thoughtful questions across 6 key relationship areas. Your answers remain completely private until your in-person session."
+  "problem": {
+    "statusQuo": "\"We should talk more about our relationship...\"",
+    "intro": "But it never happens. Why?",
+    "point1": {
+      "title": "No natural \"when\"",
+      "description": "Life is busy, there's never a perfect time"
     },
-    "step2": {
-      "title": "2. Connect in person",
-      "description": "Meet each quarter for a structured session where you discuss each question together. The app guides you through a two-pass system."
+    "point2": {
+      "title": "No clear \"what\"",
+      "description": "Where do you even start? What topics to cover?"
     },
-    "step3": {
-      "title": "3. Act together",
-      "description": "Create concrete action items during your session. Track your commitments, celebrate accomplishments, and build momentum toward your relationship goals."
+    "point3": {
+      "title": "No safe \"how\"",
+      "description": "Deep conversations feel awkward or risky"
+    }
+  },
+  "transformation": {
+    "title": "The solution",
+    "benefit1": {
+      "title": "Structure that works",
+      "description": "42 questions designed by professionals, no improvisation"
     },
-    "step4": {
-      "title": "4. Track your progress",
-      "description": "Review your session history, revisit your past answers, and see how your relationship evolves over time."
+    "benefit2": {
+      "title": "Complete privacy",
+      "description": "Your answers stay private until you're ready to share"
+    },
+    "benefit3": {
+      "title": "Equal participation",
+      "description": "The two-pass system ensures every voice is heard"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "step1": {
+        "title": "1. Prepare individually",
+        "description": "Reflect privately on thoughtful questions across 6 key relationship areas. Your answers remain completely private until your in-person session."
+      },
+      "step2": {
+        "title": "2. Connect in person",
+        "description": "Meet each quarter for a structured session where you discuss each question together. The app guides you through a two-pass system."
+      },
+      "step3": {
+        "title": "3. Act together",
+        "description": "Create concrete action items during your session. Track your commitments, celebrate accomplishments, and build momentum toward your relationship goals."
+      },
+      "step4": {
+        "title": "4. Track your progress",
+        "description": "Review your session history, revisit your past answers, and see how your relationship evolves over time."
+      }
     }
   },
   "features": {
-    "title": "Key features",
-    "feature1": {
-      "title": "42 expert questions",
-      "description": "Expertly-crafted questions in French covering all relationship dimensions"
+    "title": "What makes Couple Check-In unique",
+    "group1": {
+      "title": "Professional questions",
+      "description": "42 questions across 6 categories, co-developed with couples therapists and sex therapists",
+      "points": [
+        "Relationship overview",
+        "The past 3 months",
+        "Sexuality and intimacy",
+        "The future together",
+        "Time spent together",
+        "Closing and intentions"
+      ]
     },
-    "feature2": {
-      "title": "Privacy first",
-      "description": "Your answers are yours until you choose to share them"
+    "group2": {
+      "title": "Privacy & Balance",
+      "description": "A safe space for total honesty",
+      "points": [
+        "Your answers stay strictly private",
+        "Two-pass system for each question",
+        "No one dominates the conversation"
+      ]
     },
-    "feature3": {
-      "title": "Real-time sync",
-      "description": "Seamless couple coordination across all devices"
+    "group3": {
+      "title": "From words to action",
+      "description": "Turn discussions into concrete changes",
+      "points": [
+        "Create action items during the session",
+        "Track your commitments together",
+        "See your progress over time"
+      ]
     },
-    "feature4": {
-      "title": "Smart notifications",
-      "description": "Gentle reminders to help you prepare and stay on track"
-    },
-    "feature5": {
-      "title": "Action management",
-      "description": "Turn insights into results with structured tracking"
-    },
-    "feature6": {
-      "title": "Session history",
-      "description": "Celebrate your journey together over time"
+    "group4": {
+      "title": "Sustainable ritual",
+      "description": "A quarterly rhythm that fits your life",
+      "points": [
+        "No daily fatigue",
+        "Smart reminders (7, 3, 1 day before)",
+        "Session history to celebrate your journey"
+      ]
     }
-  },
-  "why": {
-    "title": "Why quarterly reviews?",
-    "description": "Quarterly reviews hit the sweet spot: frequent enough to catch small issues before they grow, spaced enough to see real progress between sessions. It creates a ritual you'll actually look forward to.",
-    "benefit1": "Frequent enough to catch small issues before they grow",
-    "benefit2": "Spaced enough to see real progress between sessions",
-    "benefit3": "Creates a ritual you'll actually look forward to",
-    "benefit4": "Proactive relationship care, not reactive problem-solving",
-    "perfectFor": "Perfect for:",
-    "audience1": "Couples seeking intentional relationship growth",
-    "audience2": "Partners who value structured communication",
-    "audience3": "Anyone wanting to move from \"we should talk more\" to actually talking meaningfully"
   },
   "testimonials": {
     "title": "What couples say",
     "testimonial1": {
       "name": "Sophie & Marc",
       "years": "together 5 years",
-      "text": "Quarterly reviews have transformed our communication. We finally take the time to truly listen. The app makes it simple and structured."
+      "text": "Quarterly reviews have transformed our communication. We finally take the time to truly listen. The app makes it simple and structured.",
+      "highlight": "transformed our communication"
     },
     "testimonial2": {
       "name": "Julie & Alexandre",
       "years": "together 2 years",
-      "text": "We thought everything was fine, but these questions helped us identify small things before they became problems. It's become our favorite ritual."
+      "text": "We thought everything was fine, but these questions helped us identify small things before they became problems. It's become our favorite ritual.",
+      "highlight": "identify small things before they became problems"
     },
     "testimonial3": {
       "name": "Amélie & David",
       "years": "together 8 years",
-      "text": "After 8 years, we thought we knew everything about each other. Couple Check-In showed us there's always more to discover. The concrete actions make a real difference."
+      "text": "After 8 years, we thought we knew everything about each other. Couple Check-In showed us there's always more to discover. The concrete actions make a real difference.",
+      "highlight": "always more to discover"
     },
     "testimonial4": {
       "name": "Caroline & Thomas",
       "years": "together 3 years",
-      "text": "This app gave us a framework for having conversations we were avoiding. Now we look forward to our sessions with excitement."
+      "text": "This app gave us a framework for having conversations we were avoiding. Now we look forward to our sessions with excitement.",
+      "highlight": "a framework for having conversations we were avoiding"
     }
   },
-  "cta": {
-    "title": "Start strengthening your relationship today",
-    "subtitle": "Try your first 2 months free. Then just $10/year—less than $1/month to invest in your relationship.",
-    "download": "Download on App Store",
-    "downloadGoogle": "Get it on Google Play"
+  "about": {
+    "title": "Our story",
+    "paragraph1": "Couple Check-In was born from a personal frustration: knowing we should talk more about our relationship, but never finding the right time or the right words.",
+    "paragraph2": "By working with couples therapists and sex therapists, we created the tool we wished we had — a simple framework that turns intention into real conversation, once a quarter.",
+    "signature": "The Couple Check-In Team"
+  },
+  "pricing": {
+    "title": "A simple investment",
+    "subtitle": "Less than one coffee per month for your relationship",
+    "trial": {
+      "name": "Free trial",
+      "price": "$0",
+      "period": "for 2 months",
+      "features": [
+        "Full app access",
+        "42 professional questions",
+        "Unlimited sessions",
+        "Actions and tracking"
+      ],
+      "cta": "Start free trial"
+    },
+    "annual": {
+      "name": "Annual",
+      "price": "$10",
+      "period": "/year",
+      "badge": "Popular",
+      "features": [
+        "Everything in free trial",
+        "Custom questions",
+        "Custom categories",
+        "Priority support"
+      ],
+      "cta": "Subscribe"
+    },
+    "note": "One purchase covers both partners",
+    "noCreditCard": "No credit card required for trial"
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "q1": {
-      "question": "How long does a session take?",
-      "answer": "Plan for 60-90 minutes for your in-person session. You'll each spend 15-30 minutes preparing individually beforehand."
+      "question": "Will my partner see my answers?",
+      "answer": "No, never. Your individual answers are strictly private and protected by server-side security rules. Your partner can NEVER see them. This is key to honest preparation. Only action items created together are visible to both."
     },
     "q2": {
-      "question": "Are my answers really private?",
-      "answer": "Absolutely. Your individual answers are strictly private and protected by secure server-side rules. Your partner can NEVER see them. Only shared action items are visible to both partners."
+      "question": "Does this replace couples therapy?",
+      "answer": "No. Couple Check-In is a prevention and maintenance tool for couples who are doing well and want to stay that way. If you're in crisis or significant conflict, we recommend consulting a professional. The app can be an excellent complement between therapy sessions."
     },
     "q3": {
-      "question": "What if my partner isn't interested?",
-      "answer": "Share this: Couple Check-In isn't therapy or a sign of problems—it's preventive care for your relationship. Most couples find it strengthens what's already good and catches small issues before they grow."
+      "question": "Why quarterly and not monthly or weekly?",
+      "answer": "The quarterly rhythm is frequent enough to catch small issues before they grow, but spaced enough to see real progress and avoid daily check-in fatigue. It's a ritual you'll look forward to, not a chore."
     },
     "q4": {
-      "question": "Can we customize the questions?",
-      "answer": "Yes! The app includes 42 expert-crafted questions, and you can add your own custom questions and categories that matter to your relationship."
+      "question": "How does the two-pass system work?",
+      "answer": "Each question is addressed twice: first one partner shares their prepared answer, then the other. Then roles reverse. This system ensures every voice is heard equally, without anyone dominating the conversation."
     },
     "q5": {
-      "question": "What's included in the free trial?",
-      "answer": "Everything! You get full access to all features for 2 months free. No credit card required to start."
+      "question": "What happens if we don't finish a session?",
+      "answer": "No worries! You can pick up exactly where you left off. The app saves your progress automatically. Take your time — some couples do their session across multiple sittings."
     },
     "q6": {
-      "question": "What happens after the trial?",
-      "answer": "After 2 months, continue for just $10/year (less than $1/month). Cancel anytime with no hassle."
+      "question": "Does the subscription cover both partners?",
+      "answer": "Yes! One purchase gives access to both partners. You don't need two subscriptions. It's $10/year for the whole couple."
+    },
+    "q7": {
+      "question": "Can I cancel anytime?",
+      "answer": "Absolutely. You can cancel your subscription anytime from your App Store or Google Play account settings. No commitment, no penalty."
     }
   },
   "footer": {
